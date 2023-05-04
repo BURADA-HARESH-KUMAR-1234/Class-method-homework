@@ -1,0 +1,26 @@
+class fab:
+  def fibonacci(self,n):
+    s=0
+    d=1
+    print(s)
+    print(d)
+    while(n-2>0):
+      b=d+s
+      s=d
+      d=b
+      print(b)
+      n-=1
+    
+n=int(input())
+s=fab()
+s.fibonacci(n)
+      
+    
+    
+    
+    
+
+
+      
+
+      
